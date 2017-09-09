@@ -1,0 +1,9 @@
+nsd-opennic-t2notify
+====================
+
+Using it:
+
+nsd-opennic-t2notify will write a file in your NSD config directory. Include it like so:
+include: "/var/nsd/etc/mytld.conf"
+
+Configure nsd-opennic-t2notify (edit the perl script) to write to this file, and provide it with a template to write to. An example template for .cyb is provided.
