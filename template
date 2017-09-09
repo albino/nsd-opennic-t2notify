@@ -2,6 +2,7 @@ zone:
 	name: "cyb"
 	zonefile: "cyb"
 	provide-xfr: 0.0.0.0/0 NOKEY
+	provide-xfr: ::/0 NOKEY
 	notify: 45.56.115.189 NOKEY
 	notify: 45.56.116.224 NOKEY
 	notify: 161.97.219.84 NOKEY
